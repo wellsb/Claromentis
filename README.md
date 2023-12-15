@@ -3,10 +3,10 @@ Platform: PHP 8.1.2-1ubuntu2.14 (cli) (built: Aug 18 2023 11:41:11)
 The tool is thoroughly documented with class, method, var and line comments throughout.
 
 SETUP;
-    Unzip into web root directory
-    Set ownership of new directory "Claromentis" to the same as the apache2 user (usually: chown -R www-data:www-data)
-    Set filemode of uploads and downloads directories (usually: chown -R 777 uploads & chown -R 777 downloads)
-    visit localhost/Claromentis/index.php
+    Unzip into web root directory\
+    Set ownership of new directory "Claromentis" to the same as the apache2 user (usually: chown -R www-data:www-data)\
+    Set filemode of uploads and downloads directories (usually: chown -R 777 uploads & chown -R 777 downloads)\
+    visit localhost/Claromentis/index.php\
 
 Hello there,
 Brendan here, I submit to you the unnecessarily over engineered CSV importer / calculator / exporter tool for consideration.
