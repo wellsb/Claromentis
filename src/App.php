@@ -32,8 +32,7 @@ $csvAsArray = $csvReport->parseCsvUpload($uploadedFile);
 // Perform calculations and produce reports and hand over values for display via SESSION
 // (read README on how this could have been done better)
 $totals = $csvReport->calculateExpenseReport($csvAsArray);
-$_SESSION['totals']['simple'] = $totals['simple'];
-$_SESSION['totals']['detail'] = $totals['detail'];
+$_SESSION['totals'] = $totals;
 
 // Hand over the generated report via SESSION
 // (read README on how this could have been done better)

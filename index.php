@@ -11,8 +11,7 @@
 // Create or resume session handler
 session_start();
 if (isset($_SESSION['totals'])) {
-    $totals['simple'] = $_SESSION['totals']['simple'];
-    $totals['detail'] = $_SESSION['totals']['detail'];
+    $totals = $_SESSION['totals'];
 }
 
 echo <<<HEADER
